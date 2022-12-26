@@ -8,9 +8,10 @@
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "none",
-			"installMaven": "true",
-			"installGradle": "true"
-		}
+			"installMaven": "false",
+			"installGradle": "false"
+		},
+		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
